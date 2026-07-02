@@ -1,0 +1,45 @@
+# Network Security Scanner
+
+## 📌 Project Overview
+The Network Security Scanner is a cybersecurity project developed to identify active devices, open ports, running services, and operating system details within a network. It helps security professionals discover vulnerabilities and improve overall network security using ethical scanning techniques.
+
+## 🎯 Objectives
+- Scan live hosts on a network
+- Identify open TCP/UDP ports
+- Detect running services
+- Perform OS detection
+- Improve network security
+
+## ✨ Features
+- Host Discovery
+- Port Scanning
+- Service Detection
+- OS Detection
+- Network Enumeration
+- Security Assessment
+
+## 🛠️ Tools & Technologies
+- Nmap
+- Kali Linux
+- Linux Terminal
+- TCP/IP
+- Networking Fundamentals
+
+## 🚀 How to Run
+
+```bash
+nmap 192.168.1.1
+nmap -A 192.168.1.1
+nmap -p 22,80,443 192.168.1.1
+nmap 192.168.1.0/24
+```
+
+## 📊 Learning Outcomes
+- Network Scanning
+- Port Enumeration
+- Service Identification
+- Basic Vulnerability Analysis
+- Ethical Hacking Fundamentals
+
+## 📄 License
+This project is created for educational and learning purposes only.
